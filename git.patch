@@ -1,0 +1,16 @@
+
+/home/d/d_repo/project/src
+
+$ git status -s
+M string_operations.c
+?? string_operations
+
+$ git add string_operations.c
+
+$ git commit -m "Added my_strcat function"
+
+Added my_strcat function
+1 files changed, 13 insertions(+), 0 deletions(-)
+
+$ git format-patch -1
+0001-Added-my_strcat-function.patch
